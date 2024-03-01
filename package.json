@@ -1,0 +1,33 @@
+{
+  "name": "frontend-project-46",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/AleX-09-13/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AleX-09-13/frontend-project-46/actions)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "frontend-project-46": "bin/gendiff.js"
+  },
+  "dependencies": {
+    "async": "^0.2.10",
+    "commander": "^12.0.0",
+    "core-util-is": "^1.0.3",
+    "dos2unix": "^1.1.2",
+    "glob": "^3.2.11",
+    "inherits": "^2.0.4",
+    "is": "^0.3.0",
+    "isarray": "^0.0.1",
+    "lru-cache": "^2.7.3",
+    "minimatch": "^0.3.0",
+    "node.extend": "^1.0.10",
+    "readable-stream": "^1.0.34",
+    "sigmund": "^1.0.1",
+    "string_decoder": "^0.10.31",
+    "strip-bom": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
