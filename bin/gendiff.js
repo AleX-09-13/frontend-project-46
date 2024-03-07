@@ -9,6 +9,9 @@ program
  .option('-h, --help','output usage information')
  .option('-f, --format <type>', 'output format')
  .parse();
-
-program.help();
+if (program.format) {
+  console.log(`Selected format: ${program.format}`);
+} else {
+  program.help();
+}
 // prettier-ignore-end
